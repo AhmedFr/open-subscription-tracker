@@ -17,7 +17,7 @@
     padding:32px 30px;box-shadow:0 30px 70px rgba(0,0,0,.08),0 0 0 1px rgba(0,0,0,.03)}
   .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:30px}
   .title{font-size:17px;font-weight:600;letter-spacing:-.02em}
-  .pill{font-size:11px;font-weight:600;color:var(--text2);background:var(--surface);
+  .pill{font-size:11px;font-weight:600;color:var(--pos);background:rgba(0,196,106,.1);
     padding:5px 12px;border-radius:20px}
   .lbl{font-size:12px;color:var(--text2);font-weight:500;margin-bottom:6px}
   .hero{font-size:52px;font-weight:700;letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums}
@@ -50,39 +50,39 @@
   <div class="card">
     <div class="top">
       <span class="title">Subs · build status</span>
-      <span class="pill">Foundation + CRUD slice</span>
+      <span class="pill">▶ Running on simulator</span>
     </div>
 
     <div class="lbl">Plan progress</div>
-    <div class="hero">60<span style="font-weight:500">%</span></div>
-    <div class="sub">9 of 15 tasks complete · branch <code>feat/foundation-crud</code></div>
-    <div class="bar"><i style="width:60%"></i></div>
+    <div class="hero">87<span style="font-weight:500">%</span></div>
+    <div class="sub">13 of 15 tasks · the add / list / delete slice runs on iPhone 16 · branch <code>feat/foundation-crud</code></div>
+    <div class="bar"><i style="width:87%"></i></div>
 
     <div class="stats">
       <div class="stat"><div class="n">17</div><div class="t">domain tests passing</div></div>
-      <div class="stat"><div class="n">✓</div><div class="t">iOS build succeeds</div></div>
-      <div class="stat"><div class="n">8</div><div class="t">feature commits</div></div>
+      <div class="stat"><div class="n">✓</div><div class="t">builds &amp; launches (iOS)</div></div>
+      <div class="stat"><div class="n">✓</div><div class="t">Trade Republic UI live</div></div>
     </div>
 
     <div class="sec">
       <div class="sectitle">Foundation</div>
-      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">SubscriptionKit package scaffold</div><div class="rmeta">Task 1 · smoke test green</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">SubscriptionKit package scaffold</div><div class="rmeta">Task 1</div></div><span class="badge done">Done</span></div>
       <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">Domain core — Money · CurrencyFormatter · BillingCycle · BillingScheduler</div><div class="rmeta">Tasks 2–5 · 17 tests, month-end clamping covered</div></div><span class="badge done">Done</span></div>
-      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">XcodeGen app — empty shell builds</div><div class="rmeta">Task 6 · iOS Simulator BUILD SUCCEEDED</div></div><span class="badge done">Done</span></div>
-      <div class="row"><span class="dot review"></span><div class="rmid"><div class="rname">DesignSystem — Trade Republic tokens + components</div><div class="rmeta">Tasks 7·9·10 · built &amp; spec-approved, quality review in flight</div></div><span class="badge review">In review</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">XcodeGen app — builds for iOS</div><div class="rmeta">Task 6</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">DesignSystem — Trade Republic tokens + components</div><div class="rmeta">Tasks 7·9·10</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">SwiftData models + container + category seed</div><div class="rmeta">Task 8 · CloudKit-safe</div></div><span class="badge done">Done</span></div>
     </div>
 
     <div class="sec">
-      <div class="sectitle">Core CRUD slice</div>
-      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">SwiftData models + container + category seed</div><div class="rmeta">Task 8 · next up</div></div><span class="badge todo">Pending</span></div>
-      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">Subscriptions list — empty state + swipe-delete</div><div class="rmeta">Task 11</div></div><span class="badge todo">Pending</span></div>
-      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">Add subscription form</div><div class="rmeta">Task 12</div></div><span class="badge todo">Pending</span></div>
-      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">App shell — floating nav + run on simulator</div><div class="rmeta">Task 13</div></div><span class="badge todo">Pending</span></div>
+      <div class="sectitle">Core CRUD slice — running</div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">Subscriptions list — empty state + swipe-delete</div><div class="rmeta">Task 11</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">Add subscription form</div><div class="rmeta">Task 12 · name · amount · currency · cycle · category</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">App shell — floating nav + launched on simulator</div><div class="rmeta">Task 13 · PID running on iPhone 16</div></div><span class="badge done">Done</span></div>
     </div>
 
     <div class="sec">
       <div class="sectitle">Platform &amp; docs</div>
-      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">macOS destination</div><div class="rmeta">Task 14</div></div><span class="badge todo">Pending</span></div>
+      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">macOS destination</div><div class="rmeta">Task 14 · next</div></div><span class="badge todo">Pending</span></div>
       <div class="row"><span class="dot review"></span><div class="rmid"><div class="rname">README + LICENSE</div><div class="rmeta">Task 15 · README done, LICENSE pending</div></div><span class="badge review">Partial</span></div>
     </div>
 
