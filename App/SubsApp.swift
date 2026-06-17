@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 
 @main
 struct SubsApp: App {
@@ -6,5 +7,6 @@ struct SubsApp: App {
         WindowGroup {
             RootView()
         }
+        .modelContainer(AppModelContainer.shared)
     }
 }
