@@ -13,3 +13,6 @@ Package.resolved
 
 # Brainstorming visual-companion artifacts
 .superpowers/
+
+# XcodeGen output
+*.xcodeproj
