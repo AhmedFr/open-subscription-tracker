@@ -76,4 +76,4 @@ export, Apple Watch, widgets, Mac menu-bar app, and a self-hostable web app.
 
 ## License
 
-MIT (license file pending).
+MIT — see [LICENSE](LICENSE).
