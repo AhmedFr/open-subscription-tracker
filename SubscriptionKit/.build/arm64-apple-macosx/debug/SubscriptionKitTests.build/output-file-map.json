@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/primary.swiftdeps"
+  },
+  "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/SmokeTests.swift": {
+    "dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests.d",
+    "object": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests.swift.o",
+    "swiftmodule": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests.swiftdeps",
+    "diagnostics": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests.dia"
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.xctest/Contents/MacOS/SubscriptionKitPackageTests",
+      "packagePath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit",
+      "productName" : "SubscriptionKitPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SubscriptionKit-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/sources",
+      "importPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Placeholder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SubscriptionKit",
+      "moduleOutputPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules/SubscriptionKit.swiftmodule",
+      "objects" : [
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Placeholder.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/include/SubscriptionKit-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "subscriptionkit"
+      ],
+      "outputFileMapPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Placeholder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules/SubscriptionKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Placeholder.swift"
+      ],
+      "tempsPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SubscriptionKitPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build/sources",
+      "importPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules/SubscriptionKitTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SubscriptionKitPackageTests",
+      "moduleOutputPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules/SubscriptionKitPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build/include/SubscriptionKitPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "subscriptionkit"
+      ],
+      "outputFileMapPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules/SubscriptionKitPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SubscriptionKitTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/sources",
+      "importPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/SmokeTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules/SubscriptionKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SubscriptionKitTests",
+      "moduleOutputPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules/SubscriptionKitTests.swiftmodule",
+      "objects" : [
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "subscriptionkit"
+      ],
+      "outputFileMapPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules/SubscriptionKitTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/SmokeTests.swift"
+      ],
+      "tempsPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SubscriptionKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SubscriptionKit",
+      "-package-name",
+      "subscriptionkit",
+      "-c",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Placeholder.swift",
+      "-I",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/include/SubscriptionKit-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "subscriptionkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SubscriptionKitPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SubscriptionKitPackageTests",
+      "-package-name",
+      "subscriptionkit",
+      "-c",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build/include/SubscriptionKitPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "subscriptionkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SubscriptionKitTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SubscriptionKitTests",
+      "-package-name",
+      "subscriptionkit",
+      "-c",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/SmokeTests.swift",
+      "-I",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "subscriptionkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SubscriptionKit" : [
+
+    ],
+    "SubscriptionKitPackageTests" : [
+      "SubscriptionKitTests",
+      "SubscriptionKit"
+    ],
+    "SubscriptionKitTests" : [
+      "SubscriptionKit"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Placeholder.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/sources"
+    },
+    "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build/sources"
+    },
+    "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Placeholder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/SmokeTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/sources"
+    },
+    "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

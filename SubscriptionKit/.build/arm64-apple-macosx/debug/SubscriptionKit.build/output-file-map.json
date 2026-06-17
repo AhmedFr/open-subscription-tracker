@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/primary.swiftdeps"
+  },
+  "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Placeholder.swift": {
+    "dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Placeholder.d",
+    "object": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Placeholder.swift.o",
+    "swiftmodule": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Placeholder~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Placeholder.swiftdeps",
+    "diagnostics": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Placeholder.dia"
+  }
+}
