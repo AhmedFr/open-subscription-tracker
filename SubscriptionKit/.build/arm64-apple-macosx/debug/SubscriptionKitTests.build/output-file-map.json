@@ -2,6 +2,34 @@
   "": {
     "swift-dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/primary.swiftdeps"
   },
+  "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/BillingCycleTests.swift": {
+    "dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingCycleTests.d",
+    "object": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingCycleTests.swift.o",
+    "swiftmodule": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingCycleTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingCycleTests.swiftdeps",
+    "diagnostics": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingCycleTests.dia"
+  },
+  "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/BillingSchedulerTests.swift": {
+    "dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingSchedulerTests.d",
+    "object": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingSchedulerTests.swift.o",
+    "swiftmodule": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingSchedulerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingSchedulerTests.swiftdeps",
+    "diagnostics": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingSchedulerTests.dia"
+  },
+  "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/CurrencyFormatterTests.swift": {
+    "dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/CurrencyFormatterTests.d",
+    "object": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/CurrencyFormatterTests.swift.o",
+    "swiftmodule": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/CurrencyFormatterTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/CurrencyFormatterTests.swiftdeps",
+    "diagnostics": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/CurrencyFormatterTests.dia"
+  },
+  "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/MoneyTests.swift": {
+    "dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/MoneyTests.d",
+    "object": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/MoneyTests.swift.o",
+    "swiftmodule": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/MoneyTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/MoneyTests.swiftdeps",
+    "diagnostics": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/MoneyTests.dia"
+  },
   "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/SmokeTests.swift": {
     "dependencies": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests.d",
     "object": "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests.swift.o",

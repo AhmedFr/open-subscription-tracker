@@ -43,3 +43,21 @@ private func d(_ y: Int, _ m: Int, _ day: Int) -> Date {
     let result = s.nextChargeDate(firstBillingDate: d(2026, 6, 1), cycle: .custom(days: 10), after: d(2026, 6, 15))
     #expect(result == d(2026, 6, 21))
 }
+
+@Test func yearlyAdvances() {
+    let s = BillingScheduler(calendar: utcCalendar())
+    let result = s.nextChargeDate(firstBillingDate: d(2025, 1, 15), cycle: .yearly, after: d(2026, 2, 1))
+    #expect(result == d(2027, 1, 15))
+}
+
+@Test func quarterlyAdvances() {
+    let s = BillingScheduler(calendar: utcCalendar())
+    let result = s.nextChargeDate(firstBillingDate: d(2026, 1, 10), cycle: .quarterly, after: d(2026, 2, 1))
+    #expect(result == d(2026, 4, 10))
+}
+
+@Test func semiAnnualAdvances() {
+    let s = BillingScheduler(calendar: utcCalendar())
+    let result = s.nextChargeDate(firstBillingDate: d(2026, 1, 10), cycle: .semiAnnual, after: d(2026, 2, 1))
+    #expect(result == d(2026, 7, 10))
+}

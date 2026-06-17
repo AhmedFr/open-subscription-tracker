@@ -9,6 +9,8 @@ public struct BillingScheduler {
 
     /// The first charge date strictly after `reference`, for a cycle anchored at `firstBillingDate`.
     public func nextChargeDate(firstBillingDate: Date, cycle: BillingCycle, after reference: Date) -> Date {
+        // If firstBillingDate == reference, fall through: the result must be strictly
+        // after `reference`, so we advance to the next occurrence.
         if firstBillingDate > reference { return firstBillingDate }
         var n = 1
         while n < 100_000 {

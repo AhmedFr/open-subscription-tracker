@@ -1,8 +1,8 @@
 import Foundation
 
 public struct Money: Equatable, Hashable, Sendable {
-    public var amount: Decimal
-    public var currencyCode: String
+    public let amount: Decimal
+    public let currencyCode: String
 
     public init(amount: Decimal, currencyCode: String) {
         self.amount = amount

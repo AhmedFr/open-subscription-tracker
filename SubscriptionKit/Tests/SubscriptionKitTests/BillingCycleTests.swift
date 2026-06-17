@@ -14,3 +14,7 @@ import Testing
     #expect(BillingCycle.custom(days: 30) == BillingCycle.custom(days: 30))
     #expect(BillingCycle.custom(days: 30) != BillingCycle.custom(days: 31))
 }
+
+@Test func presetsAreFiveNonCustomCasesInOrder() {
+    #expect(BillingCycle.presets == [.weekly, .monthly, .quarterly, .semiAnnual, .yearly])
+}

@@ -28,6 +28,22 @@
       "inputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/BillingCycle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/BillingScheduler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/CurrencyFormatter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Money.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Placeholder.swift"
         },
         {
@@ -43,6 +59,10 @@
       "moduleName" : "SubscriptionKit",
       "moduleOutputPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules/SubscriptionKit.swiftmodule",
       "objects" : [
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/BillingCycle.swift.o",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/BillingScheduler.swift.o",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/CurrencyFormatter.swift.o",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Money.swift.o",
         "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Placeholder.swift.o"
       ],
       "otherArguments" : [
@@ -98,6 +118,22 @@
       "outputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/BillingCycle.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/BillingScheduler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/CurrencyFormatter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Money.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Placeholder.swift.o"
         },
         {
@@ -107,6 +143,10 @@
       ],
       "prepareForIndexing" : false,
       "sources" : [
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/BillingCycle.swift",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/BillingScheduler.swift",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/CurrencyFormatter.swift",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Money.swift",
         "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Placeholder.swift"
       ],
       "tempsPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build",
@@ -214,6 +254,22 @@
       "inputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/BillingCycleTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/BillingSchedulerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/CurrencyFormatterTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/MoneyTests.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/SmokeTests.swift"
         },
         {
@@ -233,6 +289,10 @@
       "moduleName" : "SubscriptionKitTests",
       "moduleOutputPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules/SubscriptionKitTests.swiftmodule",
       "objects" : [
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingCycleTests.swift.o",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingSchedulerTests.swift.o",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/CurrencyFormatterTests.swift.o",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/MoneyTests.swift.o",
         "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests.swift.o"
       ],
       "otherArguments" : [
@@ -287,6 +347,22 @@
       "outputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingCycleTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingSchedulerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/CurrencyFormatterTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/MoneyTests.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/SmokeTests.swift.o"
         },
         {
@@ -296,6 +372,10 @@
       ],
       "prepareForIndexing" : false,
       "sources" : [
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/BillingCycleTests.swift",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/BillingSchedulerTests.swift",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/CurrencyFormatterTests.swift",
+        "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/MoneyTests.swift",
         "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/SmokeTests.swift"
       ],
       "tempsPath" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build",
@@ -313,6 +393,10 @@
       "-package-name",
       "subscriptionkit",
       "-c",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/BillingCycle.swift",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/BillingScheduler.swift",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/CurrencyFormatter.swift",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Money.swift",
       "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Placeholder.swift",
       "-I",
       "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules",
@@ -433,6 +517,10 @@
       "-package-name",
       "subscriptionkit",
       "-c",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/BillingCycleTests.swift",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/BillingSchedulerTests.swift",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/CurrencyFormatterTests.swift",
+      "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/MoneyTests.swift",
       "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/SmokeTests.swift",
       "-I",
       "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/Modules",
@@ -529,6 +617,22 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/BillingCycle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/BillingScheduler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/CurrencyFormatter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Money.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Sources/SubscriptionKit/Placeholder.swift"
         }
       ],
@@ -557,11 +661,43 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/BillingCycle.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/BillingScheduler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/CurrencyFormatter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Money.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKit.build/Placeholder.swift.o"
         },
         {
           "kind" : "file",
           "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingCycleTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/BillingSchedulerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/CurrencyFormatterTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/.build/arm64-apple-macosx/debug/SubscriptionKitTests.build/MoneyTests.swift.o"
         },
         {
           "kind" : "file",
@@ -576,6 +712,22 @@
         {
           "kind" : "virtual",
           "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/BillingCycleTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/BillingSchedulerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/CurrencyFormatterTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ahmedabouelleil/code/02-personal/open-subscription-tracker/SubscriptionKit/Tests/SubscriptionKitTests/MoneyTests.swift"
         },
         {
           "kind" : "file",

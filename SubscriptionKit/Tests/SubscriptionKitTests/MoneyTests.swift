@@ -3,8 +3,8 @@ import Foundation
 @testable import SubscriptionKit
 
 @Test func moneyStoresAmountAndCurrency() {
-    let m = Money(amount: Decimal(9.99), currencyCode: "EUR")
-    #expect(m.amount == Decimal(9.99))
+    let m = Money(amount: Decimal(string: "9.99")!, currencyCode: "EUR")
+    #expect(m.amount == Decimal(string: "9.99")!)
     #expect(m.currencyCode == "EUR")
 }
 
