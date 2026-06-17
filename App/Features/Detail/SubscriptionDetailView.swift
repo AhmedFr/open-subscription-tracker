@@ -22,6 +22,9 @@ struct SubscriptionDetailView: View {
                     DetailRow(label: "Started", value: subscription.startedDate.map(mediumDate) ?? "—")
                     DetailRow(label: "Reminder", value: reminderText)
                     DetailRow(label: "Status", value: subscription.isActive ? "Active" : "Canceled")
+                    if let notes = subscription.notes, !notes.isEmpty {
+                        DetailRow(label: "Notes", value: notes)
+                    }
                 }
                 .padding(.top, 12)
 
@@ -31,6 +34,10 @@ struct SubscriptionDetailView: View {
             .padding(.bottom, 40)
         }
         .background(Theme.bg)
+        .navigationTitle(subscription.name)
+        #if os(iOS)
+        .navigationBarTitleDisplayMode(.inline)
+        #endif
         .sheet(isPresented: $showingEdit) {
             EditSubscriptionView(subscription: subscription)
         }
