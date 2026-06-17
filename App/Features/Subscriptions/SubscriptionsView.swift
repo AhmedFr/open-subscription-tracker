@@ -38,11 +38,15 @@ struct SubscriptionsView: View {
     private var list: some View {
         List {
             ForEach(subscriptions) { sub in
-                SubscriptionRow(
-                    name: sub.name,
-                    money: sub.money,
-                    subtitle: "\(relativeDate(sub.nextChargeDate)) · \(sub.category?.name ?? "Other")"
-                )
+                NavigationLink {
+                    SubscriptionDetailView(subscription: sub)
+                } label: {
+                    SubscriptionRow(
+                        name: sub.name,
+                        money: sub.money,
+                        subtitle: "\(relativeDate(sub.nextChargeDate)) · \(sub.category?.name ?? "Other")"
+                    )
+                }
                 .listRowInsets(EdgeInsets(top: 0, leading: Spacing.screenH, bottom: 0, trailing: Spacing.screenH))
                 .listRowBackground(Theme.bg)
                 .listRowSeparatorTint(Theme.hairline)

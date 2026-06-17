@@ -35,13 +35,13 @@
   .row:first-of-type{border-top:0}
   .dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto}
   .dot.done{background:var(--pos)}
-  .dot.review{background:var(--amber)}
+  .dot.next{background:var(--amber)}
   .dot.todo{background:transparent;border:1.5px solid var(--track)}
   .rmid{flex:1;min-width:0}
   .rname{font-size:14px;font-weight:500;letter-spacing:-.01em}
   .rmeta{font-size:12px;color:var(--text2);margin-top:1px}
-  .badge{font-size:11px;font-weight:600;font-variant-numeric:tabular-nums}
-  .badge.done{color:var(--pos)} .badge.review{color:var(--amber)} .badge.todo{color:var(--text2)}
+  .badge{font-size:11px;font-weight:600}
+  .badge.done{color:var(--pos)} .badge.next{color:var(--amber)} .badge.todo{color:var(--text2)}
   .foot{margin-top:28px;font-size:12px;color:var(--text2);text-align:center}
   code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;background:var(--surface);padding:1px 6px;border-radius:6px}
 </style>
@@ -50,40 +50,29 @@
   <div class="card">
     <div class="top">
       <span class="title">Subs · build status</span>
-      <span class="pill">▶ Running on simulator</span>
+      <span class="pill">M1 complete</span>
     </div>
 
-    <div class="lbl">Plan progress</div>
-    <div class="hero">87<span style="font-weight:500">%</span></div>
-    <div class="sub">13 of 15 tasks · the add / list / delete slice runs on iPhone 16 · branch <code>feat/foundation-crud</code></div>
-    <div class="bar"><i style="width:87%"></i></div>
+    <div class="lbl">Milestones shipped</div>
+    <div class="hero">2<span style="font-weight:500;color:var(--text2)"> / 7</span></div>
+    <div class="sub">M0 Foundation + M1 Core CRUD done · add · list · detail · edit · cancel · delete, all running on iPhone 16</div>
+    <div class="bar"><i style="width:29%"></i></div>
 
     <div class="stats">
-      <div class="stat"><div class="n">17</div><div class="t">domain tests passing</div></div>
-      <div class="stat"><div class="n">✓</div><div class="t">builds &amp; launches (iOS)</div></div>
-      <div class="stat"><div class="n">✓</div><div class="t">Trade Republic UI live</div></div>
+      <div class="stat"><div class="n">21</div><div class="t">domain tests passing</div></div>
+      <div class="stat"><div class="n">✓</div><div class="t">builds iOS + macOS</div></div>
+      <div class="stat"><div class="n">✓</div><div class="t">detail + edit live</div></div>
     </div>
 
     <div class="sec">
-      <div class="sectitle">Foundation</div>
-      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">SubscriptionKit package scaffold</div><div class="rmeta">Task 1</div></div><span class="badge done">Done</span></div>
-      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">Domain core — Money · CurrencyFormatter · BillingCycle · BillingScheduler</div><div class="rmeta">Tasks 2–5 · 17 tests, month-end clamping covered</div></div><span class="badge done">Done</span></div>
-      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">XcodeGen app — builds for iOS</div><div class="rmeta">Task 6</div></div><span class="badge done">Done</span></div>
-      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">DesignSystem — Trade Republic tokens + components</div><div class="rmeta">Tasks 7·9·10</div></div><span class="badge done">Done</span></div>
-      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">SwiftData models + container + category seed</div><div class="rmeta">Task 8 · CloudKit-safe</div></div><span class="badge done">Done</span></div>
-    </div>
-
-    <div class="sec">
-      <div class="sectitle">Core CRUD slice — running</div>
-      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">Subscriptions list — empty state + swipe-delete</div><div class="rmeta">Task 11</div></div><span class="badge done">Done</span></div>
-      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">Add subscription form</div><div class="rmeta">Task 12 · name · amount · currency · cycle · category</div></div><span class="badge done">Done</span></div>
-      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">App shell — floating nav + launched on simulator</div><div class="rmeta">Task 13 · PID running on iPhone 16</div></div><span class="badge done">Done</span></div>
-    </div>
-
-    <div class="sec">
-      <div class="sectitle">Platform &amp; docs</div>
-      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">macOS destination</div><div class="rmeta">Task 14 · next</div></div><span class="badge todo">Pending</span></div>
-      <div class="row"><span class="dot review"></span><div class="rmid"><div class="rname">README + LICENSE</div><div class="rmeta">Task 15 · README done, LICENSE pending</div></div><span class="badge review">Partial</span></div>
+      <div class="sectitle">Milestones</div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">M0 — Foundation</div><div class="rmeta">SubscriptionKit · DesignSystem · SwiftData · XcodeGen · merged to main</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">M1 — Core CRUD + detail/edit</div><div class="rmeta">add · list · swipe-delete · detail screen · shared Add/Edit form · mark-canceled</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot next"></span><div class="rmid"><div class="rname">M2 — Home overview</div><div class="rmeta">monthly/yearly totals · upcoming · month-over-month meter</div></div><span class="badge next">Next</span></div>
+      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">M3 — Multi-currency</div><div class="rmeta">live exchange rates, offline-capable</div></div><span class="badge todo">Planned</span></div>
+      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">M4 — Auto-detect</div><div class="rmeta">type a name → category, color, logo</div></div><span class="badge todo">Planned</span></div>
+      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">M5 — Reminders</div><div class="rmeta">local notifications before charges</div></div><span class="badge todo">Planned</span></div>
+      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">M6 — iCloud · macOS · accessibility · polish</div><div class="rmeta">CloudKit sync, NavigationSplitView, Dynamic Type</div></div><span class="badge todo">Planned</span></div>
     </div>
 
     <div class="foot">Subscription tracker · SwiftUI + SwiftData · Trade Republic design language · snapshot 2026-06-17</div>
