@@ -28,28 +28,15 @@ final class Subscription {
     var money: Money { Money(amount: amountValue, currencyCode: currencyCode) }
 
     var cycle: BillingCycle {
-        get {
-            switch cycleRaw {
-            case "weekly": return .weekly
-            case "monthly": return .monthly
-            case "quarterly": return .quarterly
-            case "semiAnnual": return .semiAnnual
-            case "yearly": return .yearly
-            case "custom": return .custom(days: customIntervalDays)
-            default: return .monthly
-            }
-        }
+        get { BillingCycle(rawCode: cycleRaw, customIntervalDays: customIntervalDays) }
         set {
-            switch newValue {
-            case .weekly: cycleRaw = "weekly"
-            case .monthly: cycleRaw = "monthly"
-            case .quarterly: cycleRaw = "quarterly"
-            case .semiAnnual: cycleRaw = "semiAnnual"
-            case .yearly: cycleRaw = "yearly"
-            case .custom(let days): cycleRaw = "custom"; customIntervalDays = days
-            }
+            cycleRaw = newValue.rawCode
+            if let days = newValue.customDays { customIntervalDays = days }
         }
     }
+
+    /// Mark the record as modified now.
+    func touch() { updatedAt = .now }
 
     /// Recompute and store the next charge date from the anchor + cycle.
     func refreshNextChargeDate(now: Date = .now, calendar: Calendar = .current) {
