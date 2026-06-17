@@ -4,13 +4,14 @@ options:
   createIntermediateGroups: true
   deploymentTarget:
     iOS: "18.0"
+    macOS: "15.0"
 packages:
   SubscriptionKit:
     path: SubscriptionKit
 targets:
   Subs:
     type: application
-    platform: iOS
+    supportedDestinations: [iOS, macOS]
     sources:
       - path: App
     dependencies:
