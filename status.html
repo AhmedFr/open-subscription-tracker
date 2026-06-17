@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Subs · build status</title>
+<style>
+  :root{
+    --bg:#fff; --surface:#f4f4f6; --track:#ececef; --text:#0d0d0f; --text2:#a0a0a7;
+    --hair:rgba(0,0,0,.07); --pos:#00c46a; --amber:#ffb018;
+    --font:-apple-system,"SF Pro Text","SF Pro Display",Inter,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--surface);color:var(--text);font-family:var(--font);
+    -webkit-font-smoothing:antialiased;padding:40px 20px;line-height:1.5}
+  .card{max-width:680px;margin:0 auto;background:var(--bg);border-radius:24px;
+    padding:32px 30px;box-shadow:0 30px 70px rgba(0,0,0,.08),0 0 0 1px rgba(0,0,0,.03)}
+  .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:30px}
+  .title{font-size:17px;font-weight:600;letter-spacing:-.02em}
+  .pill{font-size:11px;font-weight:600;color:var(--pos);background:rgba(0,196,106,.1);
+    padding:5px 12px;border-radius:20px}
+  .lbl{font-size:12px;color:var(--text2);font-weight:500;margin-bottom:6px}
+  .hero{font-size:52px;font-weight:700;letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums}
+  .sub{font-size:14px;color:var(--text2);font-weight:500;margin-top:8px}
+  .bar{height:6px;border-radius:3px;background:var(--track);overflow:hidden;margin:18px 0 4px}
+  .bar i{display:block;height:100%;background:var(--text);border-radius:3px}
+  .stats{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}
+  .stat{flex:1;min-width:120px;background:var(--surface);border-radius:14px;padding:14px 16px}
+  .stat .n{font-size:22px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+  .stat .t{font-size:12px;color:var(--text2);font-weight:500;margin-top:2px}
+  .sec{margin-top:30px}
+  .sectitle{font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--text2);margin-bottom:6px}
+  .row{display:flex;align-items:center;gap:12px;padding:11px 0;border-top:1px solid var(--hair)}
+  .row:first-of-type{border-top:0}
+  .dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto}
+  .dot.done{background:var(--pos)}
+  .dot.review{background:var(--amber)}
+  .dot.todo{background:transparent;border:1.5px solid var(--track)}
+  .rmid{flex:1;min-width:0}
+  .rname{font-size:14px;font-weight:500;letter-spacing:-.01em}
+  .rmeta{font-size:12px;color:var(--text2);margin-top:1px}
+  .badge{font-size:11px;font-weight:600;font-variant-numeric:tabular-nums}
+  .badge.done{color:var(--pos)} .badge.review{color:var(--amber)} .badge.todo{color:var(--text2)}
+  .foot{margin-top:28px;font-size:12px;color:var(--text2);text-align:center}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;background:var(--surface);padding:1px 6px;border-radius:6px}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="top">
+      <span class="title">Subs · build status</span>
+      <span class="pill">▶ Running on simulator</span>
+    </div>
+
+    <div class="lbl">Plan progress</div>
+    <div class="hero">87<span style="font-weight:500">%</span></div>
+    <div class="sub">13 of 15 tasks · the add / list / delete slice runs on iPhone 16 · branch <code>feat/foundation-crud</code></div>
+    <div class="bar"><i style="width:87%"></i></div>
+
+    <div class="stats">
+      <div class="stat"><div class="n">17</div><div class="t">domain tests passing</div></div>
+      <div class="stat"><div class="n">✓</div><div class="t">builds &amp; launches (iOS)</div></div>
+      <div class="stat"><div class="n">✓</div><div class="t">Trade Republic UI live</div></div>
+    </div>
+
+    <div class="sec">
+      <div class="sectitle">Foundation</div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">SubscriptionKit package scaffold</div><div class="rmeta">Task 1</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">Domain core — Money · CurrencyFormatter · BillingCycle · BillingScheduler</div><div class="rmeta">Tasks 2–5 · 17 tests, month-end clamping covered</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">XcodeGen app — builds for iOS</div><div class="rmeta">Task 6</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">DesignSystem — Trade Republic tokens + components</div><div class="rmeta">Tasks 7·9·10</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">SwiftData models + container + category seed</div><div class="rmeta">Task 8 · CloudKit-safe</div></div><span class="badge done">Done</span></div>
+    </div>
+
+    <div class="sec">
+      <div class="sectitle">Core CRUD slice — running</div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">Subscriptions list — empty state + swipe-delete</div><div class="rmeta">Task 11</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">Add subscription form</div><div class="rmeta">Task 12 · name · amount · currency · cycle · category</div></div><span class="badge done">Done</span></div>
+      <div class="row"><span class="dot done"></span><div class="rmid"><div class="rname">App shell — floating nav + launched on simulator</div><div class="rmeta">Task 13 · PID running on iPhone 16</div></div><span class="badge done">Done</span></div>
+    </div>
+
+    <div class="sec">
+      <div class="sectitle">Platform &amp; docs</div>
+      <div class="row"><span class="dot todo"></span><div class="rmid"><div class="rname">macOS destination</div><div class="rmeta">Task 14 · next</div></div><span class="badge todo">Pending</span></div>
+      <div class="row"><span class="dot review"></span><div class="rmid"><div class="rname">README + LICENSE</div><div class="rmeta">Task 15 · README done, LICENSE pending</div></div><span class="badge review">Partial</span></div>
+    </div>
+
+    <div class="foot">Subscription tracker · SwiftUI + SwiftData · Trade Republic design language · snapshot 2026-06-17</div>
+  </div>
+</body>
+</html>

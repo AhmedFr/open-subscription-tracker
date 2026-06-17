@@ -9,7 +9,11 @@ xcuserdata/
 *.xcscmblueprint
 *.xccheckout
 .swiftpm/
+.build/
 Package.resolved
 
 # Brainstorming visual-companion artifacts
 .superpowers/
+
+# XcodeGen output
+*.xcodeproj

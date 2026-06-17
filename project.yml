@@ -1,0 +1,38 @@
+name: Subs
+options:
+  bundleIdPrefix: com.ahmedabouelleil
+  createIntermediateGroups: true
+  deploymentTarget:
+    iOS: "18.0"
+    macOS: "15.0"
+packages:
+  SubscriptionKit:
+    path: SubscriptionKit
+targets:
+  Subs:
+    type: application
+    supportedDestinations: [iOS, macOS]
+    sources:
+      - path: App
+    dependencies:
+      - package: SubscriptionKit
+    settings:
+      base:
+        PRODUCT_NAME: Subs
+        PRODUCT_BUNDLE_IDENTIFIER: com.ahmedabouelleil.subs
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "6.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        INFOPLIST_KEY_CFBundleDisplayName: Subs
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+schemes:
+  Subs:
+    build:
+      targets:
+        Subs: all
+    run:
+      config: Debug
+    test:
+      config: Debug
